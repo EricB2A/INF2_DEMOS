@@ -12,7 +12,7 @@ int main(void){
    scanf("%d %d %d", &jour, &mois, &annee);
    printf("Vous avez saissi la date suivante %02d/%02d/%4d\n", jour, mois, annee);
 
- printf("Date format jj mm aaa :");
+   printf("Date format jj mm aaa :");
    scanf("%*d %*d %d", &annee); // * ignore les valeurs associées
    printf("%d:%d:%d\n", jour, mois, annee);
 
